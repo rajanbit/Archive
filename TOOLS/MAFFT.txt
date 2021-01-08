@@ -1,0 +1,13 @@
+Tool: MAFFT
+Perform: Multiple Sequence Alignments (Progressive Alignment)
+>Installation
+$ sudo apt-get install mafft
+>Usage
+$ mafft --auto file.fasta > file.mafft
+>Result
+Produce .mafft file having aligned sequences
+
+Online-version
+At: https://www.ebi.ac.uk/Tools/msa/mafft/
+>Result
+Alignment, Cladogram, Phylogenetic tree, Tree data, Percent Identity  Matrix
