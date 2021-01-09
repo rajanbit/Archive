@@ -1,0 +1,8 @@
+Tool: RAxML
+Perform: Phylogenetic Tree Construction (Maximum Likelihood)
+>Installation
+$ sudo apt-get install raxml
+>Usage
+$ raxmlHPC -m GTRGAMMA -p 12345 -s MSA_file -n Tree_Name
+>Result
+RAxML_bestTree.Tree_Name, RAxML_info.Tree_Name, RAxML_log.Tree_Name, RAxML_parsimonyTree.Tree_Name, RAxML_result.Tree_Name
