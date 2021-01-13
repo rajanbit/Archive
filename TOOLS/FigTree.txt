@@ -1,0 +1,7 @@
+Tool: FigTree
+Perform: Graphical viewer of phylogenetic trees and program for producing publication-ready figures
+>Installation
+$ sudo apt-get install figtree
+>Usage
+$ figtree
+
