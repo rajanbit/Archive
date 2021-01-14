@@ -1,0 +1,18 @@
+Tool: ncbi-blast+
+Perform: Local database construction and retrieval
+
+>Installation
+$ sudo apt-get install ncbi-blast+
+
+>Usage (database construction)
+$ makeblastdb -in multi.fasta -out mydatabase -parse_seqids -dbtype nucl
+	# Remove duplicates and header should have > only in multi.fasta file
+
+>Usage (database retrieval/searching)
+$ blastn -db mydatabase -query query.fasta 
+$ blastn -db mydatabase -query query.fasta -out output.txt
+$ blastn -db mydatabase -query query.fasta -outfmt 6
+$ blastn -db mydatabase -query query.fasta -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send score qcovs evalue bitscore"
+$ blastn -db mydatabase -query query.fasta -outfmt "7 std length qcovs qcovhsp"
+$ blastn -db mydatabase -query query.fasta -outfmt "7 std length qcovs qcovhsp" -out result.txt
+	# Different commands for different output format
