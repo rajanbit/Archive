@@ -1,0 +1,29 @@
+Tool: ANI-Kostas lab (online)
+Perform: Average Nucleotide Identity Calculation
+
+>Website
+@ http://enve-omics.ce.gatech.edu/
+
+>Usage
+
+## ANI between two genomic datasets
+@ http://enve-omics.ce.gatech.edu/ani/
+- Input the data
+- Select ANI options
+- Submit Query
+> Result
+ When the Job will be done a mail will be sent to the respective e-mail id
+ Open the link provided in mail
+ Download all the files
+
+## ANI between multiple genomic datasets
+@ http://enve-omics.ce.gatech.edu/g-matrix/
+- Put all the genomic_fasta files within a folder and compress the folder to .tar.gz format
+	* .tar.gz folder should be uploaded 
+- Input the data
+- Submit Query
+> Result
+ When the Job will be done a mail will be sent to the respective e-mail id
+ Open the link provided in mail
+ Download all the files [high-resolution matrix, matrix in PDF, list of ANI values,
+ matrix, execution log, high-resolution tree, tree in Newick format]
