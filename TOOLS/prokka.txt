@@ -1,0 +1,14 @@
+Tool: prokka
+Perform: Rapid prokaryotic genome annotation
+
+>Installation
+$ conda install -c conda-forge -c bioconda -c defaults prokka
+
+>Usage
+$ prokka E_coli.fasta --outdir E_coli --prefix E.coli --locustag E_coli --cpu 1
+
+	* [--cpu 1] use 1 core in case of dual-core processor
+>Result
+ E_coli[ E.coli.ecn, E.coli.faa, E.coli.fixedproducts, E.coli.fsa, E.coli.gff, E.coli.sqn, E.coli.tsv, E.coli.val,
+ E.coli.err, E.coli.ffn, E.coli.fna, E.coli.gbf, E.coli.log, E.coli.tbl, E.coli.txt, errorsummary.val ]
+
