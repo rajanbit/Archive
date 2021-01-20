@@ -1,0 +1,23 @@
+Tool: Roary - The pan genome pipeline
+Perform: Calculates the pan genome
+Github: https://github.com/sanger-pathogens/Roary
+Website: https://sanger-pathogens.github.io/Roary/
+
+>Installation
+$ conda install -c conda-forge -c bioconda -c defaults roary
+	*If not work see github page for Installation
+
+>Requirement
+Annotated assemblies in GFF3 format (produced by Prokka)
+
+>Usage
+# Run Prokka
+$ mkdir GFF
+# Transfer all .gff files into GFF dir
+$ roary -e -r --mafft -p 2 *.gff
+	* -p 2 means 2 threads or 1 core (1 core = 2 thread) for dual core processor
+
+$ raxmlHPC -m GTRGAMMA -p 12345 -s core_gene_alignment.aln -n core_genome_tree
+
+>Result
+clustered_proteins, core_gene_alignment.aln.reduced, core_gene_alignment.aln, gene_presence_absence.csv, Rplots.pdf, RAxML_bestTree.core_genome_tree [and others]
