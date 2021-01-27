@@ -16,7 +16,10 @@ $ mkdir GFF
 # Transfer all .gff files into GFF dir
 $ roary -e -r --mafft -p 2 *.gff
 	* -p 2 means 2 threads or 1 core (1 core = 2 thread) for dual core processor
-
+	
+$ roary -e -i 90 -r --mafft -p 2 *.gff
+	* -i 90 (minimum percentage identity for blastp = 90)
+	
 $ raxmlHPC -m GTRGAMMA -p 12345 -s core_gene_alignment.aln -n core_genome_tree
 
 >Result
