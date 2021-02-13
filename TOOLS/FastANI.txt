@@ -1,0 +1,29 @@
+Tool: FastANI
+Perform: Calculates whole-genome Average Nucleotide Identity (ANI)
+Github: https://github.com/ParBLiSS/FastANI
+
+>Installation
+$ conda install -c bioconda fastani
+
+>Requirement
+
+Download visualize.R script from [https://github.com/ParBLiSS/FastANI/blob/master/scripts/visualize.R]
+
+Install genoPlotR package
+$ R
+$ install.packages("genoPlotR")
+
+>Usage
+
+Calculate ANI
+$ fastANI -q query_genome.fasta -r reference_genome.fasta -o ani_out.txt
+
+Visualize Conserved Regions b/w Two Genomes
+$ fastANI -q query_genome.fasta -r reference_genome.fasta --visualize -o fastani.out
+$ Rscript visualize.R query_genome.fasta reference_genome.fasta fastani.out.visual
+
+>Result
+ani_out.txt [query genome, reference genome, ANI value, count of bidirectional fragment mappings, and total query fragments]
+fastani.out [query genome, reference genome, ANI value, count of bidirectional fragment mappings, and total query fragments]
+fastani.out.visual [Conserved Region Locations]
+fastani.out.visual.pdf [Graphical mapping between two genomes, indicating their evolutionary conserved regions]
