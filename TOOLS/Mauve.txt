@@ -1,0 +1,14 @@
+Tool: Mauve
+Perform: Genome alignment and alignment display
+Website: http://darlinglab.org/mauve/mauve.html
+
+>Installation
+$ conda install -c bioconda mauve
+$ wget http://darlinglab.org/mauve/snapshots/2015/2015-02-13/linux-x64/mauve_linux_snapshot_2015-02-13.tar.gz
+$ tar -xvf mauve_linux_snapshot_2015-02-13.tar.gz
+
+>Usage
+$ progressiveMauve --output=out.xmfa Seq1.fasta Seq2.fasta
+$ cd mauve_snapshot_2015-02-13 
+$./Mauve
+Upload the out.xmfa alignment file in Mauve
