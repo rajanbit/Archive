@@ -1,0 +1,51 @@
+Tool: Snippy
+Perform: Finds SNPs between a haploid reference genome and sequence isolates 
+GitHub: https://github.com/tseemann/snippy
+
+>Installation
+$ conda install -c conda-forge -c bioconda -c defaults snippy
+
+>Requirements
+
+# For Core SNP phylogeny (snippy-multi)
+
+ Tab separated input file like this (input.tab)
+
+ Isolate	/path/to/Isolate
+ STB-A	seq/STB-A.fasta
+ STB-K	seq/STB-K.fasta
+ STB-J	seq/STB-J.fasta
+ STB-L	seq/STB-L.fasta
+ 
+ --ref /path/to/Reference_genome.gbk
+ --cpus No. of CPUs to be used
+ --ram GB of RAM to be used
+
+>Usage
+
+# Calling SNPs
+
+$ snippy --outdir outdir_name --ctgs Query.fasta --ref Reference.gbk --ram 2 --cpus 1
+
+# For Core SNP phylogeny (snippy-multi)
+
+$ snippy-multi input.tab --ref ref/MTB-H37Rv.gbk --ram 2 --cpus 1 > runme.sh
+$ less runme.sh
+$ sh ./runme.sh
+
+>Result
+
+# Calling SNPs
+
+reference, ref.fa.fai, snps.bam, snps.bed, snps.consensus.subs.fa, snps.filt.vcf, snps.html, snps.raw.vcf, snps.tab, snps.vcf, snps.vcf.gz.csi
+ref.fa, snps.aligned.fa, snps.bam.bai, snps.consensus.fa, snps.csv, snps.gff, snps.log, snps.subs.vcf, snps.txt, snps.vcf.gz
+
+# For Core SNP phylogeny (snippy-multi)
+
+.aln [A core SNP alignment]
+.full.aln [A whole genome SNP alignment]
+.tab [Tab-separated columnar list of core SNP sites with alleles but NO annotations]
+.vcf [Multi-sample VCF file with genotype GT tags for all discovered alleles]
+.txt [Tab-separated columnar list of alignment/core-size statistics]
+.ref.fa [FASTA version/copy of the --ref]
+
