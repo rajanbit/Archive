@@ -1,0 +1,14 @@
+Tool: SplitsTree 
+Perform: Compute a Phylogenetic Network
+Website: https://software-ab.informatik.uni-tuebingen.de/download/splitstree4/welcome.html
+
+>Installation
+$ wget https://software-ab.informatik.uni-tuebingen.de/download/splitstree4/splitstree4_unix_4_16_2.sh
+$ sh ./splitstree4_unix_4_16_2.sh
+
+>Usage
+Run SplitsTree
+Upload .aln (alignment file)
+
+>Result
+Phylogenetic Network
