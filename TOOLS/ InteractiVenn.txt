@@ -1,0 +1,41 @@
+Tool:  InteractiVenn
+
+Perform: Web-based tool for creating Venn diagrams
+
+Website: http://www.interactivenn.net/
+
+>Usage
+Method_1
+Select Number of Sets i.e. 2,3,4,5,6
+Rename Set names as per the data (e.g. Set A to mydata1)
+Enter data manually or copy paste the data
+
+Test_Data
+
+mydata1	mydata2 mydata3
+a	c	b
+b	d	c
+c	e	d
+d	f	g
+e	g
+f
+
+Method_2
+Make a file with .ivenn extension (file.ivenn)
+
+Test_Data
+
+mydata1:a,b,c,d,e,f;
+mydata2:c,d,e,f,g;
+mydata3:b,c,d,g
+
+Enter your data in file.ivenn in the prescribed format shown above
+(for test copy and paste the above data into it)
+
+Go to the website
+Browse the file(file.ivenn) to load the data_sets
+
+>Result
+Venn diagram will be produced
+
+*Click on numbers within the diagram to see the respective data
