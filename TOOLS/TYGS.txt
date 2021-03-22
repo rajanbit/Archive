@@ -1,0 +1,22 @@
+Tool: TYGS [Type (Strain) Genome Server]
+Perform: Genome-based prokaryote Taxonomy
+
+>Website
+https://tygs.dsmz.de/
+https://tygs.dsmz.de/user_requests/new
+
+>Usage
+Go to @ https://tygs.dsmz.de/user_requests/new
+Browse and select all the Genomic Fasta files
+Enter the mail id
+Submit the job
+
+>Result
+GBDP tree (16S rDNA gene sequence-based)
+GBDP tree (whole-genome sequence-based)
+Identification Table containing name of species the sequences belong to
+Pairwise comparisons of user genomes vs. type strain genomes
+Strains in your dataset 
+
+>References
+Meier-Kolthoff JP, Göker M. TYGS is an automated high-throughput platform for state-of-the-art genome-based taxonomy. Nat. Commun. 2019;10: 2182. DOI: 10.1038/s41467-019-10210-3
