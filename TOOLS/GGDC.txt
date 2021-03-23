@@ -1,0 +1,23 @@
+Tool: GGDC [Genome-to-Genome Distance Calculator 2.1]
+Perform: In-silico DNA DNA Hybridization (DDH)
+
+>Website
+http://ggdc.dsmz.de/
+http://ggdc.dsmz.de/ggdc.php#
+
+>Usage
+Go to @ http://ggdc.dsmz.de/ggdc.php#
+Browse and select Query Genome Fasta file
+Browse and select Reference Genome Fasta file
+Enter the mail id
+Submit the job
+
+>Result
+Distance, DDH value, Probability that DDH > 70% (i.e., same species) and Probability that DDH > 79% (i.e., same subspecies) with Formula: 1, 2 and 3
+Difference in % G+C
+
+#Note1: Formula 1 utilizes HSP (High-scoring Segment Pairs) length and total lengths of the genome; Formula 2 uses identities and HSP length while Formula 3 uses identities and total lengths
+#Note2: preferred formula 2
+
+>References
+ Meier-Kolthoff, J.P., Auch, A.F., Klenk, H.-P., Göker, M. Genome sequence-based species delimitation with confidence intervals and improved distance functions. BMC Bioinformatics 14:60, 2013.
