@@ -1,0 +1,29 @@
+Tool: FIMO (Find Individual Motif Occurrences)
+Perform: Searches a set of sequences for occurrences of known motifs
+
+>Website
+https://meme-suite.org/meme/doc/fimo.html
+https://meme-suite.org/meme/tools/fimo
+
+>Requirement
+From the JASPAR database download the MEME file for the motifs [http://jaspar.genereg.net/]
+
+>Usage
+Go to @ https://meme-suite.org/meme/tools/fimo
+Input the motifs in .MEME format
+Input the sequences in .FASTA format
+-Enter the sequences or select the database
+-To enter the sequence select the option Upload sequences from the drop-down menu
+Enter your email address
+Enter a job description
+Start Search
+
+>Results
+FIMO HTML output
+FIMO TSV output
+FIMO XML output
+FIMO CISML output
+FIMO GFF output
+Input Motifs
+Uploaded Sequences
+
