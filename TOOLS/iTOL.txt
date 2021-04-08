@@ -1,0 +1,13 @@
+Tool: Interactive Tree Of Life (iTOL)
+Perform: Online tool for phylogenetic tree display and annotation
+
+>Website
+https://itol.embl.de/
+https://itol.embl.de/upload.cgi
+
+>Usage
+Go to @ https://itol.embl.de/upload.cgi
+Upload or Paste the tree in Newick, Nexus or PhyloXML format
+
+>Results
+The graphical representations of phylogenetic trees will open, here annotation can be done.
