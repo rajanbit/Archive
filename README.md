@@ -36,6 +36,10 @@
 
 **Roary**: Calculates the pan genome and core genome.
 
+### Genome-wide association study (GWAS)
+
+**Scoary**: Pan-genome wide association studies (Pan-GWAS)
+
 ### SNP Finder
 
 **Snippy**: Finds SNPs between a haploid reference genome and sequence isolates.
