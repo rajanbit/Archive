@@ -1,0 +1,35 @@
+Tool: Scoary
+Perform: Pan-genome wide association studies (Pan-GWAS)
+
+GitHub: https://github.com/AdmiralenOla/Scoary
+
+#Installation
+$ pip install scoary
+
+#Requirement
+traits.csv file
+----------------
+,Trait
+Genome_A,1
+Genome_B,0
+Genome_C,NA
+-----------------
+[1 => Trait present, 0 => Trait absent, NA => Not applicable]
+
+#Usage
+
+##SNP based GWAS
+Input file: [core.vcf] file produced by Snippy
+$ vcf2scoary core.vcf
+$ scoary -t traits.csv -g mutations_presence_absence.csv -o SNP_GWAS -s 11
+
+#Pan-Genome based GWAS
+Input file: [gene_presence_absence.csv] file produced by Roary
+$ scoary -t traits.csv -g gene_presence_absence.csv -o Pan_GWAS
+
+Other optional arguments
+-p P_VALUE_CUTOFF (-p 5E-8)
+-n NEWICKTREE
+
+#Results
+.results.csv output file
