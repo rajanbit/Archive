@@ -1,0 +1,18 @@
+Tool: PHAST (PHAge Search Tool)
+Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online)
+
+Website: http://phast.wishartlab.com/index.html
+
+#Usage
+Upload nucleotide sequence file (FASTA format)/GenBank formatted file
+OR
+Input a Genbank accession number or a GI number
+OR
+Paste nucleotide sequence (FASTA format)
+
+#Result:
+Summary result file
+Detailed file
+FLASH image of the result
+RNA info
+Image in PNG format
