@@ -52,6 +52,10 @@
 
 **FIMO**: Searches a set of sequences for occurrences of known motifs
 
+### Molecular Docking and Visualization
+
+**AutoDock Vina**: Protein-Ligand Docking
+
 ### Others
 
 **InteractiVenn**: Tool to create Venn diagrams.
