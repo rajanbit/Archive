@@ -1,0 +1,14 @@
+Tool: AutoDock Vina
+Perform: Protein-Ligand Docking
+
+Website: http://vina.scripps.edu/index.html
+
+#Installation
+$ conda install -c bioconda autodock-vina
+
+#Usage
+$ vina --help
+$ vina --receptor Protein.pdbqt --ligand Ligand.pdbqt --center_x 215.5 --center_y 230.1 --center_z 260.0 --size_x 126 --size_y 126 --size_z 126
+
+#Result
+Ligand_out.pdbqt
