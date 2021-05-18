@@ -58,8 +58,12 @@
 
 ### Others
 
+**PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online)
+
 **InteractiVenn**: Tool to create Venn diagrams.
 
 ## PIPELINES
 
-**Bisulfite-sequencing-data-analysis**
+**Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data
+
+**SARS-CoV-2 RdRp Molecular Docking**: Pipeline for molecular docking analysis of SARS-CoV-2 RNA dependent RNA polymerase
