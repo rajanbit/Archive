@@ -1,0 +1,25 @@
+Tool: RAxML-NG
+Perform: Phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion
+
+GitHub: https://github.com/amkozlov/raxml-ng
+Website: https://github.com/amkozlov/raxml-ng/wiki/Tutorial
+
+#Installation
+$ conda install -c bioconda raxml-ng
+
+#Usage
+Compute BestTree
+$ raxml-ng --msa MSA_File --model GTR+G --prefix Best_Tree_Prefix --threads 2 --seed 12345
+Compute BootstrapTrees
+$ raxml-ng --bootstrap --msa MSA_File --model GTR+G --prefix Bootstrap_Trees_Prefix --threads 2 --seed 12345 --bs-trees 10
+Compute Branch Support Tree for Visualization
+$ raxml-ng --support --tree Best_Tree_Prefix.raxml.bestTree --bs-trees Bootstrap_Trees_Prefix.raxml.bootstraps --prefix Support_Tree_Prefix --threads 2
+
+#Results
+Best_Tree_Prefix.raxml.bestModel          Best_Tree_Prefix.raxml.mlTrees           Bootstrap_Trees_Prefix.raxml.log 
+Best_Tree_Prefix.raxml.bestTree           Best_Tree_Prefix.raxml.rba               Bootstrap_Trees_Prefix.raxml.rba
+Best_Tree_Prefix.raxml.bestTreeCollapsed  Best_Tree_Prefix.raxml.startTree         Support_Tree_Prefix.raxml.support
+Best_Tree_Prefix.raxml.log                Bootstrap_Trees_Prefix.raxml.bootstraps  Support_Tree_Prefix.raxml.log
+
+#Result Visualization
+Support_Tree_Prefix.raxml.support can be uploaded in iTOL for Visualization
