@@ -6,11 +6,13 @@
 
 **RAxML**: Phylogenetic Tree Construction (Maximum Likelihood).
 
+**RAxML-NG**: Phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion.
+
 **SplitsTree**: Compute Phylogenetic Networks.
 
 **FigTree**: Tool to graphically view phylogenetic trees.
 
-**iTOL**: Online tool for phylogenetic tree display and annotation
+**iTOL**: Online tool for phylogenetic tree display and annotation.
 
 ### Sequence Alignment
 
@@ -38,7 +40,7 @@
 
 ### Genome-wide association study (GWAS)
 
-**Scoary**: Pan-genome wide association studies (Pan-GWAS)
+**Scoary**: Pan-genome wide association studies (Pan-GWAS).
 
 ### SNP Finder
 
@@ -50,20 +52,20 @@
 
 ### Motif Finder
 
-**FIMO**: Searches a set of sequences for occurrences of known motifs
+**FIMO**: Searches a set of sequences for occurrences of known motifs.
 
 ### Molecular Docking and Visualization
 
-**AutoDock Vina**: Protein-Ligand Docking
+**AutoDock Vina**: Protein-Ligand Docking.
 
 ### Others
 
-**PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online)
+**PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
 
 **InteractiVenn**: Tool to create Venn diagrams.
 
 ## PIPELINES
 
-**Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data
+**Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data.
 
-**SARS-CoV-2 RdRp Molecular Docking**: Pipeline for molecular docking analysis of SARS-CoV-2 RNA dependent RNA polymerase
+**SARS-CoV-2 RdRp Molecular Docking**: Pipeline for molecular docking analysis of SARS-CoV-2 RNA dependent RNA polymerase.
