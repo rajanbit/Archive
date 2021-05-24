@@ -1,0 +1,43 @@
+Tool: AutoDock Tools
+Perform: Set-up ligand and receptor for AutoDock docking
+
+Website: http://autodock.scripps.edu/resources/adt
+
+#Installation
+Check system type
+$ uname -m
+Download appropriate version of MGLTools from [https://ccsb.scripps.edu/mgltools/downloads/]
+$ chmod +x mgltools_Linux-x86_64_1.5.7_install
+$ ./mgltools_Linux-x86_64_1.5.7_install
+Browse and choose the location to install
+
+#Usage
+Run AutoDock Tools
+$ cd MGLTools-1.5.7/bin/
+$ ./adt
+
+Open ligand in AutoDock Tools
+>Ligand >Input >Open 
+Choose rotatable bonds
+>Ligand >Torsion Tree >Detect Root
+Add Gasteiger charges 
+>Edit >Charges >Compute Gasteiger
+Saving ligand in pdbqt format
+>Ligand >Output >Save as PDBQT
+
+Open receptor in AutoDock Tools
+>Grid >Macromolecule >Open
+	It automatically asks to save receptor in PDBQT format
+Add polar hydrogens
+>Edit >Hydrogens >Add >Polar only
+Add Kollman charges to protein
+>Edit > Charges > Add Kollman Charges
+Saving receptor in pdbqt format
+>Grid >Macromolecule >Choose >Select >Save
+OR
+>File >Save >Write PDBQT
+
+Get coordinates for docking
+>Grid >Grid Box
+Adjust and write all the coordinates and dimensions
+
