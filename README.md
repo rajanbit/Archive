@@ -56,6 +56,8 @@
 
 ### Molecular Docking and Visualization
 
+**AutoDock Tools**: Set-up ligand and receptor for AutoDock docking
+
 **AutoDock Vina**: Protein-Ligand Docking.
 
 ### Others
