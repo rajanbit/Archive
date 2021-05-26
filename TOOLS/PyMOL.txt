@@ -1,0 +1,86 @@
+Tool: PyMOL
+Perform: Molecular visualization system
+
+Website: https://pymol.org/2/
+
+#Installation
+$ sudo apt-get install -y pymol
+
+#Usage
+$ pymol
+
+1. Upload PDB File
+>File >Open >Select pdb file
+
+2. Selecting Chain
+>Display >Sequence
+>Sequence Mode >Chains
+In PyMOL Viewer select the chain (at top)
+
+3. Delete Chain
+Select the chain (Left mouse click)
+Right mouse click on it 
+>remove
+
+4. Visualization mode (protein)
+In PyMOL Viewer 
+>Protein(2UV0) >S(Show:) >as(As:) >cartoon/line/stick/ribbon/etc.
+
+5. Visualize Ligand
+>Display >Sequence
+>Sequence Mode >Residues
+In PyMOL Viewer select the last residue
+Right mouse click on it 
+>show(Show:) >as(As:) >Sticks
+>color >yellows >yellow
+OR
+In PyMOL Viewer select the last residue
+click on it 
+>(sele) >S(Show:) >as(As:) >Sticks
+>(sele) >C(Color:) >yellows >yellow
+
+6. Remove Water molecules
+>Protein(2UV0) >A(Action:) >remove water
+
+7. Open PyMOL with PDB file
+$ pymol 6lzg.pdb
+
+8. Displaying polar contacts
+>Protein(2UV0) >A(Action:) >find(Find:) >polar contacts
+
+##Case study
+
+### 6BB5 (Human Oxy-Hemoglobin)
+
+Upload PDB File
+>File >Open >Select pdb file
+>Display >Sequence
+>Sequence Mode >Residue Codes
+In PyMOL Viewer:
+#Selection 
+chain (by pressing left mouse button and moving the cursor)[1] e.g. globin seq
+cofactor (by clicking)[2] e.g. heme
+ligand (by clicking)[3] e.g. O2
+#Show As
+>(sele) >S(Show:) >as(As:) >cartoon(chain e.g. Globin seq)
+>(sele) >S(Show:) >as(As:) >Sticks(cofactor e.g. HEM)
+>(sele) >S(Show:) >as(As:) >spheres(ligand e.g. OXY)
+#Color
+>(sele) >C(Color:) >greens >green(chain e.g. Globin seq)
+>(sele) >C(Color:) >yellows >yellow(cofactor e.g. HEM)
+>(sele) >C(Color:) >reds >red(ligand e.g. OXY)
+
+Options like Show As and Color can be directly accessed by right clicking on the selection
+
+### Molecular docking [LasR and N-3-oxo-dodecanoyl-l-homoserine lactone]
+>Preparation of Receptor and Ligand for control experiment
+Open 2UV0 protein in PyMOL
+Delete 3 Chains (out of any 4)
+Remove Water molecules
+Save LasR_protein_only
+	Delete [N-3-oxo-dodecanoyl-l-homoserine lactone] last residue
+	>File >Save Molecule >OK >Save (LasR_protein_only.pdb)
+Save  LasR_ligand_only
+	Delete LasR chain
+	>File >Save Molecule >OK >Save (LasR_ligand_only.pdb)
+
