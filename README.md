@@ -60,6 +60,8 @@
 
 **AutoDock Vina**: Protein-Ligand Docking.
 
+**PyMOL**: Molecular visualization system
+
 ### Others
 
 **PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
