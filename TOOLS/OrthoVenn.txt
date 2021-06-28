@@ -1,0 +1,12 @@
+Tool: OrthoVenn2 [Online]
+Perform: Comparison and annotation of orthologous gene clusters among multiple species
+
+Website: https://orthovenn2.bioinfotoolkits.net/home
+
+Usage:
+>Open Website >Start >Bacteria
+>Upload protein sequences [protein fasta file for each species or view Input Format given]
+>Start analysis
+
+Result:
+venn diagram, pairwise heatmap, protein clusters, protein count etc
