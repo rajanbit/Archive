@@ -72,6 +72,10 @@
 
 **InteractiVenn**: Tool to create Venn diagrams.
 
+### Utility Tools
+
+**Terminator**: Open-source terminal emulator (run multiple terminals).
+
 ## PIPELINES
 
 **Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data.
