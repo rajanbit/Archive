@@ -1,0 +1,9 @@
+Tool: Terminator (terminal emulator)
+Perform: Open-source terminal emulator (run multiple terminals)
+
+Website: https://terminator-gtk3.readthedocs.io/en/latest/
+
+> Installation
+$ sudo apt-get update
+$ sudo apt-get install terminator
+# Drag and drop to Launcher
