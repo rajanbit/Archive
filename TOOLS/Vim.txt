@@ -1,0 +1,29 @@
+Tool: Vim
+Perform: Text editor for terminal
+
+Website: https://www.vim.org/
+Commands: https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm
+
+>Installation
+$ sudo apt-get update
+$ sudo apt-get install vim
+
+>Usage
+
+Create a file
+$ vim <file_name>
+
+Open and Edit a file
+$ vim <file_name>
+$ a [append]
+# Edit
+
+Save the changes and quit
+Esc
+$ :w
+$ :q
+OR
+$ :wq
+OR
+ZZ
+
