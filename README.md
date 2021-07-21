@@ -76,6 +76,8 @@
 
 **Terminator**: Open-source terminal emulator (run multiple terminals).
 
+**Vim**: Text editor for terminal.
+
 ## PIPELINES
 
 **Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data.
