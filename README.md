@@ -66,6 +66,10 @@
 
 **OrthoVenn**: Comparison and annotation of orthologous gene clusters
 
+### Recombination
+
+**ClonalFrameML**: Inference of recombination in bacterial genomes
+
 ### Others
 
 **PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
