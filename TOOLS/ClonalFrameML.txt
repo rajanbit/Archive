@@ -1,0 +1,24 @@
+Tool: ClonalFrameML
+Perform: Inference of recombination in bacterial genomes
+Github: https://github.com/xavierdidelot/ClonalFrameML
+
+>Installation
+$ conda install -c conda-forge -c bioconda -c defaults clonalframeml
+
+------------------------PACKAGES INSTALLATION---------------------------
+$ R
+$ install.packages("ape")
+$ sudo apt-get update -y
+$ sudo apt-get install -y r-cran-phangorn
+------------------------------------------------------------------------
+>Requirement
+Script: cfml_results.R
+@ https://github.com/xavierdidelot/ClonalFrameML/blob/master/src/cfml_results.R
+Input Data: 
+core_gene_alignment.aln file produced by Roary
+RAxML_bestTree produced using core_gene_alignment.aln
+
+>Usage
+$ ClonalFrameML RAxML_bestTree.tree core_gene_alignment.aln output_prefix
+$ Rscript cfml_results.R output_prefix
+
