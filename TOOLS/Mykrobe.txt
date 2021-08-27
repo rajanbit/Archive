@@ -1,0 +1,11 @@
+Tool: Mykrobe
+Perform: Antimicrobial resistance and lineage prediction
+Github: https://github.com/Mykrobe-tools/mykrobe
+Website: http://www.mykrobe.com/
+
+>Installation
+$ conda install -c bioconda mykrobe
+
+>Usage
+$ mykrobe predict --threads 1 --species tb --sample seq1 --seq seq.fasta --output out.tsv
+
