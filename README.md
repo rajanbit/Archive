@@ -70,6 +70,10 @@
 
 **ClonalFrameML**: Inference of recombination in bacterial genomes
 
+### Antimicrobial resistance and lineage prediction
+
+**Mykrobe**: Prediction of Antimicrobial resistance and Lineage in Mycobacterium tuberculosis
+
 ### Others
 
 **PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
