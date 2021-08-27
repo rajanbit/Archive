@@ -6,6 +6,21 @@ Website: http://www.mykrobe.com/
 >Installation
 $ conda install -c bioconda mykrobe
 
->Usage
-$ mykrobe predict --threads 1 --species tb --sample seq1 --seq seq.fasta --output out.tsv
+>Requirement
 
+fasta_append.py
+---------------------------------------------------------------
+import sys
+
+inp = open (sys.argv[1], "r")
+out = open(sys.argv[1]+".out", "w")
+inp_rl = inp.readlines()
+
+for i in range(0,3):
+	for line in inp_rl:
+		out.write(line)
+---------------------------------------------------------------
+
+>Usage
+$ python3.7 fasta_append.py seq.fasta
+$ mykrobe predict --threads 1 --species tb --sample seq1 --seq seq.fasta.out --output out.tsv
