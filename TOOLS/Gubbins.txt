@@ -1,0 +1,31 @@
+Tool: Gubbins
+Perform: Recombination predictions in bacterial genomes
+Github: https://github.com/sanger-pathogens/gubbins
+Website: http://sanger-pathogens.github.io/gubbins/
+
+>Installation
+
+conda config --add channels r
+conda config --add channels defaults
+conda config --add channels conda-forge
+conda config --add channels bioconda
+conda install gubbins
+
+>Requirement
+core.full.aln file produced by Snippy
+
+>Usage
+$ snippy-clean_full_aln core.full.aln > core_full_clean.aln
+$ run_gubbins.py core_full_clean.aln --iterations 5 --verbose
+
+>Results Visualization
+
+Visit @ http://jameshadfield.github.io/phandango/#/main
+
+Drag and drop following files in given order
+-------------------------------------------------------------
+.final_tree.tre
+Reference_Genome.gff [used as reference in Snippy]
+.recombination_predictions.gff
+.per_branch_statistics.csv
+-------------------------------------------------------------
