@@ -70,6 +70,8 @@
 
 **ClonalFrameML**: Inference of recombination in bacterial genomes
 
+**Gubbins**: Recombination predictions in bacterial genomes
+
 ### Antimicrobial resistance and lineage prediction
 
 **Mykrobe**: Prediction of Antimicrobial resistance and Lineage in Mycobacterium tuberculosis
