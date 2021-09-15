@@ -23,4 +23,5 @@ for i in range(0,3):
 
 >Usage
 $ python3.7 fasta_append.py seq.fasta
-$ mykrobe predict --threads 1 --species tb --sample seq1 --seq seq.fasta.out --output out.tsv
+$ mykrobe predict --threads 2 --species tb --sample seq1 --seq seq.fasta.out --output out.tsv
+$ mykrobe predict --threads 2 --species tb --sample SRR -i SRR.fastq.gz --output out.tsv
