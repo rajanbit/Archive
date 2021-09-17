@@ -1,0 +1,15 @@
+Tool: ISEScan
+Perform:  Identify IS (Insertion Sequence) elements in genome
+
+GitHub: https://github.com/xiezhq/ISEScan
+
+>Installation
+$ conda config --add channels defaults
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge
+$ conda install isescan
+$ conda update isescan
+
+>Usage
+$ isescan.py --seqfile seq.fasta --output results --nthread 2
+
