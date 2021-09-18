@@ -78,7 +78,9 @@
 
 ### Others
 
-**PHAST (PHAge Search Tool)**: Perform: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
+**PHAST (PHAge Search Tool)**: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
+
+**ISEScan**:  Identify IS (Insertion Sequence) elements in genome
 
 **InteractiVenn**: Tool to create Venn diagrams.
 
