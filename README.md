@@ -76,6 +76,8 @@
 
 **Mykrobe**: Prediction of Antimicrobial resistance and Lineage in Mycobacterium tuberculosis
 
+**RD-Analyzer**: In silico region of difference (RD) analysis of Mycobacterium tuberculosis complex
+
 ### Others
 
 **PHAST (PHAge Search Tool)**: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
