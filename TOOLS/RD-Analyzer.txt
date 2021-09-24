@@ -1,0 +1,18 @@
+Tool: RD-Analyzer
+Perform: In silico region of difference (RD) analysis of Mycobacterium tuberculosis complex
+
+GitHub: https://github.com/xiaeryu/RD-Analyzer
+
+>Prerequisites:
+
+Python 2.7
+BWA-MEM
+SAMtools (v 0.1.19)
+
+>Installation:
+
+$ git clone https://github.com/xiaeryu/RD-Analyzer.git
+
+>Usage: 
+$ conda deactivate [if SAMtools version > 0.1.19]
+$ python2.7 RD-Analyzer/RD-Analyzer.py MTBC_seq.fasta -o MTBC_seq
