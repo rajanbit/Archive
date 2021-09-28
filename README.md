@@ -30,6 +30,8 @@
 
 **TYGS**: Genome-based prokaryote Taxonomy.
 
+**pairsnp**: Construct pairwise SNP distance matrices from multiple sequence alignments
+
 ### Genome Annotation
 
 **Prokka**: Rapid prokaryotic genome annotation.
