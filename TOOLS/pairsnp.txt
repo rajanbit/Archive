@@ -1,0 +1,11 @@
+Tool: pairsnp
+Perform: Construct pairwise SNP distance matrices from multiple sequence alignments
+
+GitHub: https://github.com/gtonkinhill/pairsnp
+Website: https://www.sanger.ac.uk/tool/pairsnp/
+
+>Installation
+$ conda install -c bioconda pairsnp
+
+>Usage
+$ pairsnp -c alignment.fasta > result.csv
