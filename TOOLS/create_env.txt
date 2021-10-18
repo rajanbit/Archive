@@ -1,0 +1,21 @@
+# Creating Environment in Conda
+
+File: create_env.yml
+---------------------------------------------------------------------------------
+name: environment-name		# Name for creating environment
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy			# Tools/Programs/Libraries to be
+  - matplotlib			# included within the environment
+---------------------------------------------------------------------------------
+
+Commands:
+
+Create environment
+$ conda env create -f create_env.yml
+
+Remove environment 
+$ conda env remove -n environment-name
