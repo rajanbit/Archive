@@ -30,7 +30,7 @@
 
 **TYGS**: Genome-based prokaryote Taxonomy.
 
-**pairsnp**: Construct pairwise SNP distance matrices from multiple sequence alignments
+**pairsnp**: Construct pairwise SNP distance matrices from multiple sequence alignments.
 
 ### Genome Annotation
 
@@ -58,35 +58,37 @@
 
 ### Molecular Docking and Visualization
 
-**AutoDock Tools**: Set-up ligand and receptor for AutoDock docking
+**AutoDock Tools**: Set-up ligand and receptor for AutoDock docking.
 
 **AutoDock Vina**: Protein-Ligand Docking.
 
-**PyMOL**: Molecular visualization system
+**PyMOL**: Molecular visualization system.
 
 ### Comparative genomics
 
-**OrthoVenn**: Comparison and annotation of orthologous gene clusters
+**OrthoVenn**: Comparison and annotation of orthologous gene clusters.
 
 ### Recombination
 
-**ClonalFrameML**: Inference of recombination in bacterial genomes
+**ClonalFrameML**: Inference of recombination in bacterial genomes.
 
-**Gubbins**: Recombination predictions in bacterial genomes
+**Gubbins**: Recombination predictions in bacterial genomes.
 
 ### Antimicrobial resistance and lineage prediction
 
-**Mykrobe**: Prediction of Antimicrobial resistance and Lineage in Mycobacterium tuberculosis
+**Mykrobe**: Prediction of Antimicrobial resistance and Lineage in Mycobacterium tuberculosis.
 
-**RD-Analyzer**: In silico region of difference (RD) analysis of Mycobacterium tuberculosis complex
+**RD-Analyzer**: In silico region of difference (RD) analysis of Mycobacterium tuberculosis complex.
 
 ### Others
 
 **PHAST (PHAge Search Tool)**: Identify, annotate and graphically display prophage sequences within bacterial genomes or plasmids (Online).
 
-**ISEScan**:  Identify IS (Insertion Sequence) elements in genome
+**ISEScan**:  Identify IS (Insertion Sequence) elements in genome.
 
 **InteractiVenn**: Tool to create Venn diagrams.
+
+**create_env**: Method for creating an environment in conda.
 
 ### Utility Tools
 
