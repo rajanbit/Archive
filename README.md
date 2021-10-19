@@ -92,6 +92,8 @@
 
 ### Utility Tools
 
+**R-Base**: R package for Linux & Conda.
+
 **Terminator**: Open-source terminal emulator (run multiple terminals).
 
 **Vim**: Text editor for terminal.
