@@ -1,0 +1,29 @@
+Tool: R version 4.1.1
+Perform: R for Linux/Conda
+
+>Installation
+
+Linux:
+$ sudo apt install r-base
+
+Conda:
+
+# File
+
+rbase.yml-------------------------------------
+
+name: R-Base
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.1.1
+
+----------------------------------------------
+
+$ conda env create -f rbase.yml
+
+>Usage
+
+$ conda activate R-Base
+$ R
+$ conda deactivate
