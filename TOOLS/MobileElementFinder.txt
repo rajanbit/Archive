@@ -1,0 +1,34 @@
+Tool: MobileElementFinder (mefinder)
+Perform: Identify Mobile Genetic Elements (MGEs) in Bacterial Genome
+
+Website: 
+@ https://pypi.org/project/MobileElementFinder/
+@ https://cge.cbs.dtu.dk/services/MobileElementFinder/
+
+Installation:
+
+Requirement: conda_mefinder.yml [provided by Markus H K Johansson]
+
+conda_mefinder.yml--------------------------------------------------------
+
+name: MEFinder
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - blast=2.12.0
+  - kma=1.3.24
+  - pip:
+    - mobileelementfinder==1.0.3
+
+--------------------------------------------------------------------------
+
+$ conda env create -f conda_mefinder.yml
+
+Usage:
+
+$ conda activate MEFinder
+$ mefinder find -c seq.fasta seq_out
+$ conda deactivate
+
