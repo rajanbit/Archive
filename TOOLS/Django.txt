@@ -1,0 +1,20 @@
+Tool: Django
+Perform: Python based web framework
+
+Website: https://www.djangoproject.com/
+GitHub: https://github.com/django/django
+
+> Installation:
+
+$ conda create --name Django python=3.9
+$ conda activate Django
+$ conda install -c conda-forge django
+$ conda install -c conda-forge tree 
+
+>Test Installation:
+$ mkdir test_django
+$ cd test_django/
+$ conda activate Django
+$ django-admin startproject mysite .
+$ python manage.py runserver
+
