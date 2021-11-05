@@ -94,6 +94,8 @@
 
 **create_env**: Method for creating an environment in conda.
 
+**Django**: Python based web framework
+
 ### Utility Tools
 
 **R-Base**: R package for Linux & Conda.
