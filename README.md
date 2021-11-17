@@ -44,9 +44,11 @@
 
 **Scoary**: Pan-genome wide association studies (Pan-GWAS).
 
-### SNP Finder
+### SNP Analysis
 
 **Snippy**: Finds SNPs between a haploid reference genome and sequence isolates.
+
+**snipit**:  summarise snps relative to your reference sequence.
 
 ### Database
 
