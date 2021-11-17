@@ -1,0 +1,27 @@
+Tool: snipit
+Perform: summarise snps relative to your reference sequence
+
+GitHub: https://github.com/aineniamh/snipit
+
+Installation:
+
+File: snipit.yml
+-----------------------------------------------------------
+name: snipit
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.7.4
+  - pip:
+    - snipit
+-----------------------------------------------------------
+
+$ conda env create -f snipit.yml
+
+Usage:
+
+$ conda activate snipit
+$ snipit seq.mafft # Reference: first/top seq in alignment
+$ conda deactivate
