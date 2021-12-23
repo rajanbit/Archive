@@ -1,0 +1,17 @@
+Tool: Aliview
+Perform: Alignment viewer and editor
+
+GitHub: https://github.com/AliView/AliView
+Website: http://www.ormbunkar.se/aliview/
+
+Installation
+$ sudo apt-get install openjdk-8-jdk
+Download the installer from http://ormbunkar.se/downloads/linux
+$ chmod +x aliview.install.run
+$ sudo ./aliview.install.run
+
+Usage
+$ aliview seq.aln
+or
+$ aliview
+
