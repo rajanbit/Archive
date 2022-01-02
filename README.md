@@ -16,6 +16,8 @@
 
 ### Sequence Alignment
 
+**Aliview**: Alignment viewer and editor
+
 **MAFFT**: Tool to create multiple sequence alignment based on progressive alignment algorithm.
 
 **Mauve**: Tool to create multiple sequence alignment based on progressive alignment and alignment display. 
