@@ -1,0 +1,45 @@
+# Tool: HyPhy (Hypothesis Testing using Phylogenies)
+# Perform: Analysis of genetic sequences (in particular the inference of natural selection)
+	 using techniques in phylogenetics, molecular evolution, and machine learning
+
+##############################################################
+
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+##############################################################
+
+# Requirements
+# CDS alignment file (FASTA format) with termination codon (last codon) removed and a tree (Newick format)
+
+# Installation:
+
+$ conda install -c bioconda hyphy
+
+# Usage:
+
+$ hyphy
+
+# Result Visualization
+
+http://vision.hyphy.org/
+>Select the tool [Toll]
+>LOAD [upload result]
