@@ -2,6 +2,10 @@
 
 ## TOOLS
 
+### Evolutionary Analysis
+
+**HyPhy**: Analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning.
+
 ### Phylogenetic Tree
 
 **RAxML**: Phylogenetic Tree Construction (Maximum Likelihood).
