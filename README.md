@@ -98,6 +98,8 @@
 
 ### Others
 
+**Miniconda**: Package management system and environment management system.
+
 **InteractiVenn**: Tool to create Venn diagrams.
 
 **create_env**: Method for creating an environment in conda.
