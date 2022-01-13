@@ -1,0 +1,14 @@
+Tool: Miniconda
+Perform: Package management system and environment management system 
+
+Website: https://docs.conda.io/en/latest/miniconda.html
+Github: https://github.com/conda/conda-docs/blob/master/docs/source/miniconda.rst
+
+# Download Latest Miniconda Installer (as per the system requirement)
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh
+
+# Installation
+$ sh ./Miniconda3-py39_4.10.3-Linux-x86_64.sh 
+$ conda update conda
+
+
