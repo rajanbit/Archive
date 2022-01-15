@@ -1,0 +1,15 @@
+Tool: ViralMSA
+Perform: Reference-guided multiple sequence alignment of viral genomes
+
+GitHub: https://github.com/niemasd/ViralMSA
+
+# Requirement [Minimap2]
+$ conda install -c bioconda minimap2
+
+# Installation
+$ wget "https://raw.githubusercontent.com/niemasd/ViralMSA/master/ViralMSA.py"
+$ chmod a+x ViralMSA.py
+$ sudo mv ViralMSA.py /usr/local/bin/ViralMSA.py
+
+# Usage
+$ ViralMSA.py -e xyz -s seq.fasta -r reference.fasta -t 2 -o out_dir
