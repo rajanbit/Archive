@@ -4,7 +4,7 @@
 
 ### Evolutionary Analysis
 
-**HyPhy**: Analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning.
+[**HyPhy**](https://github.com/rajanbit/Archive/blob/main/TOOLS/HyPhy.txt): Analysis of genetic sequences using techniques in phylogenetics, molecular evolution, and machine learning.
 
 ### Phylogenetic Tree
 
@@ -19,6 +19,8 @@
 **iTOL**: Online tool for phylogenetic tree display and annotation.
 
 ### Sequence Alignment
+
+[**ViralMSA**](https://github.com/rajanbit/Archive/blob/main/TOOLS/ViralMSA.txt): Reference-guided multiple sequence alignment of viral genomes.
 
 **Aliview**: Alignment viewer and editor
 
