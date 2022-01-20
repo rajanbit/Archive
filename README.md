@@ -110,14 +110,16 @@
 
 ### Utility Tools
 
-**R-Base**: R package for Linux & Conda.
+[**Tmux**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Tmux.txt): Terminal multiplexer
 
-**Terminator**: Open-source terminal emulator (run multiple terminals).
+[**R-Base**](https://github.com/rajanbit/Archive/blob/main/TOOLS/R-Base.txt): R package for Linux & Conda.
 
-**Vim**: Text editor for terminal.
+[**Terminator**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Terminator.txt): Open-source terminal emulator (run multiple terminals).
+
+[**Vim**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Vim.txt): Text editor for terminal.
 
 ## PIPELINES
 
-**Bisulfite-sequencing-data-analysis**: Pipeline for analysis of bisulfite sequencing data.
+[**Bisulfite-sequencing-data-analysis**](https://github.com/rajanbit/Archive/blob/main/PIPELINES/Bisulfite-sequencing-data-analysis.md): Pipeline for analysis of bisulfite sequencing data.
 
-**SARS-CoV-2 RdRp Molecular Docking**: Pipeline for molecular docking analysis of SARS-CoV-2 RNA dependent RNA polymerase.
+[**SARS-CoV-2 RdRp Molecular Docking**](https://github.com/rajanbit/Archive/blob/main/PIPELINES/SARS-CoV-2_RdRp_molecular_docking.md): Pipeline for molecular docking analysis of SARS-CoV-2 RNA dependent RNA polymerase.
