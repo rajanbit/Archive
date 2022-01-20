@@ -1,0 +1,26 @@
+Tool: Tmux
+Perform: Terminal multiplexer [multiple terminal sessions to be accessed simultaneously in a single window]
+
+GitHub: https://github.com/tmux/tmux
+
+Installation:
+$ conda install -c conda-forge tmux
+
+Usage:
+
+Start new session
+$ tmux new -s <session_name>
+
+## RUN COMMANDS or JOBS
+
+Detach Session
+$ press Ctrl + b and then wait a sec and type d
+
+List all Sessions
+$ tmux ls
+
+Attach Session
+$ tmux attach -d -t <session_name>
+
+Kill Session
+$ tmux kill-session -t <session_name>
