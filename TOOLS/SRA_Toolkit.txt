@@ -1,0 +1,21 @@
+Tool: SRA Toolkit
+Perform: Building new and accessing existing SRA runs
+
+GitHub: https://github.com/ncbi/sra-tools
+Website: https://hpc.nih.gov/apps/sratoolkit.html
+
+Installation:
+
+$ conda install -c bioconda sra-tools
+
+Usage:
+
+# Retrieves SRA record
+$ prefetch SRR17192047
+
+# Extract reads (.fastq) from SRA file
+$ fastq-dump --split-files SRR17192047.sra
+
+# Extract reads (.fasta) from SRA file
+$ fastq-dump --split-files --fasta SRR17192047.sra
+

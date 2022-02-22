@@ -1,0 +1,30 @@
+Tool: HMMER
+Perform: Sequence analysis using profile hidden Markov models
+
+Website: http://hmmer.org/
+GitHub: https://github.com/EddyRivasLab/hmmer
+User’s Guide: http://eddylab.org/software/hmmer/Userguide.pdf
+
+Installation:
+
+$ conda install -c bioconda hmmer 
+
+Usage:
+
+# Construct profile-HMM (pHMM)
+$ hmmbuild --amino --cpu 2 seq.hmm seq.aln
+
+# Convert pHMM data to Sequence Logo data
+$ hmmlogo seq.hmm > seq.logo
+
+# Output in legacy HMMER2ASCII text format for comparative studies
+$ hmmconvert -2 seq.hmm > seq.hmm2
+
+# Generate consensus sequence from hmm
+$ hmmemit -c seq.hmm > conseq.fa
+
+# Search profile-HMM against sequence
+$ hmmsearch --cpu 2 seq.hmm seq.fasta
+
+# Creating logo from profile-HMM
+Upload seq.hmm to [http://skylign.org/]
