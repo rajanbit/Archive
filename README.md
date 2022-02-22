@@ -8,37 +8,40 @@
 
 ### Phylogenetic Tree
 
-**RAxML**: Phylogenetic Tree Construction (Maximum Likelihood).
+[**RAxML**](https://github.com/rajanbit/Archive/blob/main/TOOLS/RAxML.txt): Phylogenetic Tree Construction (Maximum Likelihood).
 
-**RAxML-NG**: Phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion.
+[**RAxML-NG**](https://github.com/rajanbit/Archive/blob/main/TOOLS/RAxML-NG.txt): Phylogenetic tree inference tool which uses maximum-likelihood (ML) optimality criterion.
 
-**SplitsTree**: Compute Phylogenetic Networks.
+[**SplitsTree**](https://github.com/rajanbit/Archive/blob/main/TOOLS/SplitsTree.txt): Compute Phylogenetic Networks.
 
-**FigTree**: Tool to graphically view phylogenetic trees.
+[**FigTree**](https://github.com/rajanbit/Archive/blob/main/TOOLS/FigTree.txt): Tool to graphically view phylogenetic trees.
 
-**iTOL**: Online tool for phylogenetic tree display and annotation.
+[**iTOL**](https://github.com/rajanbit/Archive/blob/main/TOOLS/iTOL.txt): Online tool for phylogenetic tree display and annotation.
 
 ### Sequence Alignment
 
 [**ViralMSA**](https://github.com/rajanbit/Archive/blob/main/TOOLS/ViralMSA.txt): Reference-guided multiple sequence alignment of viral genomes.
 
-**Aliview**: Alignment viewer and editor
+[**Aliview**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Aliview.txt): Alignment viewer and editor
 
-**MAFFT**: Tool to create multiple sequence alignment based on progressive alignment algorithm.
+[**MAFFT**](https://github.com/rajanbit/Archive/blob/main/TOOLS/MAFFT.txt): Tool to create multiple sequence alignment based on progressive alignment algorithm.
 
-**Mauve**: Tool to create multiple sequence alignment based on progressive alignment and alignment display. 
+[**Mauve**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Mauve.txt): Tool to create multiple sequence alignment based on progressive alignment and alignment display. 
+
+### Sequence Analysis
+[**HMMER**](https://github.com/rajanbit/Archive/blob/main/TOOLS/HMMER.txt): Sequence analysis using profile hidden Markov models.
 
 ### Taxonomy
 
-**FastANI**: Computing whole-genome Average Nucleotide Identity (ANI).
+[**FastANI**](https://github.com/rajanbit/Archive/blob/main/TOOLS/FastANI.txt): Computing whole-genome Average Nucleotide Identity (ANI).
 
-**Kostas_lab_ANI**: Estimates the average nucleotide identity using both best hits (one-way ANI) and reciprocal best hits (two-way ANI) between two genomic datasets.
+[**Kostas_lab_ANI**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Kostas_lab_ANI.txt): Estimates the average nucleotide identity using both best hits (one-way ANI) and reciprocal best hits (two-way ANI) between two genomic datasets.
 
-**GGDC**: In-silico DNA DNA Hybridization (DDH).
+[**GGDC**](https://github.com/rajanbit/Archive/blob/main/TOOLS/GGDC.txt): In-silico DNA DNA Hybridization (DDH).
 
-**TYGS**: Genome-based prokaryote Taxonomy.
+[**TYGS**](https://github.com/rajanbit/Archive/blob/main/TOOLS/TYGS.txt): Genome-based prokaryote Taxonomy.
 
-**pairsnp**: Construct pairwise SNP distance matrices from multiple sequence alignments.
+[**pairsnp**](https://github.com/rajanbit/Archive/blob/main/TOOLS/pairsnp.txt): Construct pairwise SNP distance matrices from multiple sequence alignments.
 
 ### Genome Annotation
 
@@ -59,6 +62,8 @@
 **snipit**:  summarise snps relative to your reference sequence.
 
 ### Database
+
+**SRA_Toolkit**: Building new and accessing existing SRA runs.
 
 **ncbi-blast+**: Local database construction and retrieval.
 
