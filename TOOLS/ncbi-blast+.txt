@@ -5,14 +5,37 @@ Perform: Local database construction and retrieval
 $ sudo apt-get install ncbi-blast+
 
 >Usage (database construction)
+# DNA/RNA Sequences
 $ makeblastdb -in multi.fasta -out mydatabase -parse_seqids -dbtype nucl
-	# Remove duplicates and header should have > only in multi.fasta file
 
->Usage (database retrieval/searching)
-$ blastn -db mydatabase -query query.fasta 
-$ blastn -db mydatabase -query query.fasta -out output.txt
-$ blastn -db mydatabase -query query.fasta -outfmt 6
-$ blastn -db mydatabase -query query.fasta -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send score qcovs evalue bitscore"
-$ blastn -db mydatabase -query query.fasta -outfmt "7 std length qcovs qcovhsp"
+# Protein Sequences
+$ makeblastdb -in multi.fasta -out mydatabase -parse_seqids -dbtype prot
+
+>Usage (database retrieval/searching) 
+
+# Blastn
+$ blastn -db mydatabase -query query.fasta -outfmt 6 -out result.txt
+$ blastn -db mydatabase -query query.fasta -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send score qcovs evalue bitscore" -out result.txt
 $ blastn -db mydatabase -query query.fasta -outfmt "7 std length qcovs qcovhsp" -out result.txt
 	# Different commands for different output format
+
+Other useful parameters:
+	-task blastn-short [for short query sequences e.g. kmers]
+	-num_threads 2 [2 cores]
+	-ungapped [hits with ungapped alignment]
+	-max_target_seqs 500 [maximum number of hits]
+	-perc_identity 100 [hits with 100% identity]
+	-qcov_hsp_perc 100 [hits with 100% query coverage]
+
+# Blastp
+$ blastp -db mydatabase -query query.fasta -outfmt "7 std length qcovs qcovhsp" -out result.txt
+
+Other useful parameters:
+	-task blastp-short [for short query sequences e.g. kmers]
+	-num_threads 2 [2 cores]
+	-ungapped [hits with ungapped alignment]
+	-max_target_seqs 500 [maximum number of hits]
+	-qcov_hsp_perc 100 [hits with 100% query coverage]
+
+# Psi-Blast
+
