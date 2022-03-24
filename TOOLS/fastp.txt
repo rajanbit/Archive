@@ -1,0 +1,19 @@
+Tool: fastp
+Perform: Preprocessing for FastQ file
+
+GitHub: https://github.com/OpenGene/fastp
+
+# Installation
+
+$ wget http://opengene.org/fastp/fastp
+$ chmod a+x ./fastp
+$ sudo mv fastp /usr/local/bin/fastp
+
+# Usage
+
+## For single end reads:
+$ fastp -i RR.fastq -o out.RR.fastq
+
+## For paired end reads:
+$ fastp -i RR_1.fastq.gz -I RR_2.fastq.gz -o out.RR_1.fastq.gz -O out.RR_2.fastq.gz
+
