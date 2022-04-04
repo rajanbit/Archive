@@ -31,6 +31,9 @@
 ### Sequence Analysis
 [**HMMER**](https://github.com/rajanbit/Archive/blob/main/TOOLS/HMMER.txt): Sequence analysis using profile hidden Markov models.
 
+### NGS analysis
+[**fastp**](https://github.com/rajanbit/Archive/blob/main/TOOLS/fastp.txt): Preprocessing for FastQ file.
+
 ### Taxonomy
 
 [**FastANI**](https://github.com/rajanbit/Archive/blob/main/TOOLS/FastANI.txt): Computing whole-genome Average Nucleotide Identity (ANI).
@@ -45,31 +48,31 @@
 
 ### Genome Annotation
 
-**Prokka**: Rapid prokaryotic genome annotation.
+[**Prokka**](https://github.com/rajanbit/Archive/blob/main/TOOLS/prokka.txt): Rapid prokaryotic genome annotation.
 
 ### Pan Genome Pipeline
 
-**Roary**: Calculates the pan genome and core genome.
+[**Roary**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Roary.txt): Calculates the pan genome and core genome.
 
 ### Genome-wide association study (GWAS)
 
-**Scoary**: Pan-genome wide association studies (Pan-GWAS).
+[**Scoary**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Scoary.txt): Pan-genome wide association studies (Pan-GWAS).
 
 ### SNP Analysis
 
-**Snippy**: Finds SNPs between a haploid reference genome and sequence isolates.
+[**Snippy**](https://github.com/rajanbit/Archive/blob/main/TOOLS/Snippy.txt): Finds SNPs between a haploid reference genome and sequence isolates.
 
-**snipit**:  summarise snps relative to your reference sequence.
+[**snipit**](https://github.com/rajanbit/Archive/blob/main/TOOLS/snipit.txt):  summarise snps relative to your reference sequence.
 
 ### Database
 
-**SRA_Toolkit**: Building new and accessing existing SRA runs.
+[**SRA_Toolkit**](https://github.com/rajanbit/Archive/blob/main/TOOLS/SRA_Toolkit.txt): Building new and accessing existing SRA runs.
 
-**ncbi-blast+**: Local database construction and retrieval.
+[**ncbi-blast+**](https://github.com/rajanbit/Archive/blob/main/TOOLS/ncbi-blast%2B.txt): Local database construction and retrieval.
 
 ### Motif Finder
 
-**FIMO**: Searches a set of sequences for occurrences of known motifs.
+[**FIMO**](https://github.com/rajanbit/Archive/blob/main/TOOLS/FIMO.txt): Searches a set of sequences for occurrences of known motifs.
 
 ### Molecular Docking and Visualization
 
