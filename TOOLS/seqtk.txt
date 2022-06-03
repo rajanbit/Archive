@@ -1,0 +1,32 @@
+Tool: seqtk
+Perform: Processing sequences in the FASTA or FASTQ format
+
+GitHub: https://github.com/lh3/seqtk
+Website: https://docs.csc.fi/apps/seqtk/
+
+Installation:
+$ conda install -c bioconda seqtk
+
+Usage: 
+
+Extract sequences from FASTA file
+# Note: sequence IDs in subseq.ids file should exactly match with fasta headers in seq.fasta file
+$ seqtk subseq seq.fasta subseq.ids > subseq.fasta
+
+Get the nucleotide composition of FASTA
+# Output format: chr, length, #A, #C, #G, #T, #2, #3, #4, #CpG, #tv, #ts, #CpG-ts
+$ seqtk comp seq.fasta > seq.comp
+
+Identify high or low GC regions
+# High GC
+$ seqtk gc seq.fasta
+# High AT
+$ seqtk gc -w seq.fasta
+
+Randomly subsample sequences
+$ seqtk sample -s 11 seq.fasta 10
+# Note: change -seed(-s) value each time for randomly subsampling 
+# value after filename (seq.fasta) is fraction of sequences to extract
+
+Apart from these it also includes other commands which can be explored
+$ seqtk
