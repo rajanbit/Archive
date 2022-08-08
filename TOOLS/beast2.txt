@@ -1,0 +1,38 @@
+Tool: BEAST2​ (Bayesian Evolutionary Analysis Sampling Trees)
+Perform: Estimates rooted, time-measured phylogenies using strict or relaxed molecular clock models
+
+GitHub: https://github.com/CompEvol/beast2
+Website: http://www.beast2.org/
+
+Installation:
+
+Install BEAST2
+$ wget https://github.com/CompEvol/beast2/releases/download/v2.6.7/BEAST_with_JRE.v2.6.7.Linux.tgz
+$ tar fxz BEAST_with_JRE.v2.6.7.Linux.tgz
+
+Install Tracer
+$ wget https://github.com/beast-dev/tracer/releases/download/v1.7.2/Tracer.v1.7.2.zip
+$ unzip Tracer.v1.7.2.zip
+
+Install Clustal Omega
+conda install -c bioconda clustalw
+
+Usage:
+
+1. Multiple Sequence Alignment
+$ clustalw -OUTPUT=NEXUS -INFILE=sequence.fasta -OUTFILE=sequence.nxs
+
+2. Generating BEAST2 XML files
+./beast/bin/beauti
+>File >Import Alignment >Upload sequence.nxs file
+### Configure all options
+>File >Save 
+
+3. Running BEAST2
+$ ./beast/bin/beast
+>Select and upload sequence.xml file
+
+4. Visualization
+$ java -Xmx4096m -jar Tracer\ v1.7.2/lib/tracer.jar
+>Upload sequence.log file
+$ figtree sequence_1.trees
