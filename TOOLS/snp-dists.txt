@@ -1,0 +1,12 @@
+Tool: snp-dists
+Perform: FASTA alignment to SNP distance matrix
+
+GitHub: https://github.com/tseemann/snp-dists
+
+Installation:
+$ conda create -n snp-dists
+$ conda activate snp-dists
+$ conda install -c bioconda -c conda-forge snp-dists
+
+Usage: 
+$ snp-dists sequence.aln > matrix.tsv
