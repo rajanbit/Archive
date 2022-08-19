@@ -1,0 +1,22 @@
+Tool: IQ-TREE 
+Perform: Phylogenomic inference
+
+Website: http://www.iqtree.org/
+GitHub: https://github.com/Cibiv/IQ-TREE
+
+Installation: 
+$ conda install -c bioconda iqtree
+
+Usage:
+
+Run ModelFinder
+$ iqtree -s primates_cox2.aln -m MFP -T 2
+
+Run IQ-TREE with Best-fit model chosen according to BIC (e.g. HKY+F+G4)
+$ $ iqtree -s primates_cox2.aln -m HKY+F+G4 -T 2 -B 1000 -redo
+
+Note: -m <MODEL> -T <CORES> -B <BOOTSTRAP> -s <ALIGNED SEQUENCE>
+
+Result:
+.treefile: contain tree in NEWICK format with branch length 
+and bootstrap values which can be visualized using iTOL
