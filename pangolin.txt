@@ -1,0 +1,24 @@
+Tool: PANGOLIN (Phylogenetic Assignment of Named Global Outbreak LINeages)
+Perform: Dynamic nomenclature of SARS-CoV-2 lineages
+
+Website: https://cov-lineages.org/resources/pangolin.html
+GitHub: https://github.com/cov-lineages/pangolin
+
+Installation:
+
+$ git clone https://github.com/cov-lineages/pangolin.git
+$ cd pangolin
+$ conda env create -f environment.yml
+$ conda activate pangolin
+$ pip install .
+
+Usage: 
+
+Print version 
+$ pangolin --version
+
+Print help message
+$ pangolin --help
+
+Lineage assignment
+$ pangolin sequence.fasta
