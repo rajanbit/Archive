@@ -1,0 +1,49 @@
+Tool: MySQL
+Perform: Database management system (DBMS)
+
+Website: https://www.mysql.com/
+
+### Installation 
+```
+$ sudo apt install mysql-server
+```
+
+### Database construction using MySQL
+
+```
+# show help message
+$ mysql --help
+
+# connect to MySQL server
+$ sudo mysql
+
+# list all the databases
+mysql> show databases;
+
+# create a database
+mysql> CREATE DATABASE mydatabase;
+
+# select database
+mysql> USE mydatabase;
+
+# create an empty table with seqID and seq columns
+mysql> CREATE TABLE myseq(seqID int(10) not null, seq varchar(100) not null);
+
+# show tables in database
+mysql> show tables;
+
+# show description of a table
+mysql> desc myseq;
+
+# insert records in a table
+mysql> INSERT INTO myseq(seqID, seq) VALUES(123, "AAAAAAAAAAAAA");
+mysql> INSERT INTO myseq(seqID, seq) VALUES(234, "TTTTTTTTTTTTT");
+mysql> INSERT INTO myseq(seqID, seq) VALUES(345, "CCCCCCCCCCCCC");
+mysql> INSERT INTO myseq(seqID, seq) VALUES(455, "GGGGGGGGGGGGG");
+
+# visualizing the table
+mysql> SELECT * FROM myseq;
+
+# exit MySQL server
+mysql> exit
+```
