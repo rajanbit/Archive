@@ -4,13 +4,10 @@ Perform: Database management system (DBMS)
 Website: https://www.mysql.com/
 
 ### Installation 
-```
 $ sudo apt install mysql-server
-```
 
-### Database construction using MySQL
+### Usage
 
-```
 # show help message
 $ mysql --help
 
@@ -46,4 +43,29 @@ mysql> SELECT * FROM myseq;
 
 # exit MySQL server
 mysql> exit
-```
+
+# dump database
+$ sudo mysqldump -u root -p mydatabase > mydatabase.sql
+
+# delete database
+mysql> DROP DATABASE mydatabase;
+
+# restoring dump database
+mysql> CREATE DATABASE mydatabase1;
+$ sudo mysql -u root -p mydatabase1 < mydatabase.sql
+
+# create a user
+mysql> CREATE USER 'user1'@'localhost' IDENTIFIED BY 'user1passwd';
+
+# grant database access to user
+mysql> GRANT ALL ON mydatabase.* TO 'user1'@'localhost' WITH GRANT OPTION;
+
+# connect to MySQL server as user1
+$ mysql -u user1 -p
+
+# list all users in MySQL server
+mysql> use mysql;
+mysql> SELECT user FROM user;
+
+# delete user in MySQL server
+mysql> DROP USER 'user1'@'localhost';
