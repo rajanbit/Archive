@@ -1,0 +1,15 @@
+Tool: BBMap
+Perform: Short read aligner for DNA and RNA-seq data
+
+SourceForge: https://sourceforge.net/projects/bbmap/
+Website: https://jgi.doe.gov/data-and-tools/software-tools/bbtools/
+
+Installation: 
+$ conda install -c bioconda bbmap
+
+Usage: 
+# Indexing
+$ bbmap.sh ref=reference fasta
+# Mapping
+$ bbmap.sh in=seq.fasta out=output.sam
+
