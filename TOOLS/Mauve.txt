@@ -3,11 +3,14 @@ Perform: Genome alignment and alignment display
 Website: http://darlinglab.org/mauve/mauve.html
 
 >Installation
+$ conda create -n mauve
+$ conda install openjdk=8
 $ conda install -c bioconda mauve
 $ wget http://darlinglab.org/mauve/snapshots/2015/2015-02-13/linux-x64/mauve_linux_snapshot_2015-02-13.tar.gz
 $ tar -xvf mauve_linux_snapshot_2015-02-13.tar.gz
 
 >Usage
+$ conda activate mauve
 $ progressiveMauve --output=out.xmfa Seq1.fasta Seq2.fasta
 $ cd mauve_snapshot_2015-02-13 
 $./Mauve
