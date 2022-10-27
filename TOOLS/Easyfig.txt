@@ -1,0 +1,23 @@
+Tool: Easyfig
+Perform: Make genome comparison figure
+
+Website: https://mjsull.github.io/Easyfig/files.html
+GitHub: https://github.com/mjsull/Easyfig
+
+Installation:
+## Download and untar Easyfig
+$ wget https://github.com/mjsull/Easyfig/releases/download/2.2.2/Easyfig_2.2.2_linux.tar.gz
+$ tar -xvf Easyfig_2.2.2_linux.tar.gz
+## Move within the Easyfig directory
+$ cd Easyfig_2.2.2_linux/
+## Download and untar zlib-1.2.9 library
+$ wget https://sourceforge.net/projects/libpng/files/zlib/1.2.9/zlib-1.2.9.tar.gz
+$ tar -xvf zlib-1.2.9.tar.gz
+## Configure, make and move zlib-1.2.9 into Easyfig directory
+$ cd zlib-1.2.9/
+$ ./configure; make
+$ cd ../
+$ mv zlib-1.2.9/* .
+
+Usage:
+$ ./Easyfig
