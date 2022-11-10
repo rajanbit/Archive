@@ -74,4 +74,16 @@ bl <- blast(db=reference, type='blastn')
   return(predict(bl, x, BLAST_args="-max_target_seqs 100000000"))
 }
 ```
-7. 
+7. Creating local taxonomy database
+```
+> dir.create('taxonomy')
+> prepareDatabase('taxonomy/accessionTaxa.sql')
+> prepareDatabase('accessionTaxa.sql')
+> tax_db = 'taxonomy/'
+> tax_db_files = list.files(tax_db, full.names = TRUE)
+> nodes = tax_db_files[grepl('nodes', tax_db_files)]
+> names = tax_db_files[grepl('names', tax_db_files)]
+> accession = tax_db_files[grepl('accessionTaxa', tax_db_files)]
+> taxaNodes<-read.nodes.sql(nodes)
+> taxaNames<-read.names.sql(names)
+```
