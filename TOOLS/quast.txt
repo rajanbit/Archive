@@ -1,0 +1,22 @@
+Tool: QUAST
+Usage: Genome assembly evaluation tool
+
+Website: http://quast.sourceforge.net/ 
+GitHub: https://github.com/ablab/quast
+
+Installation:
+$ conda create -n quast
+$ conda activate quast
+$ conda install -c bioconda quast
+
+Usage:
+
+# Basic evaluation
+$ quast contigs_file1.fasta contigs_file2.fasta -r reference.fasta
+
+# Create Circos Plot
+$ quast contigs_file1.fasta contigs_file2.fasta -r reference.fasta --circos
+
+# K-mer based stats
+$ quast contigs_file1.fasta contigs_file2.fasta -r reference.fasta --k-mer-stats
+
