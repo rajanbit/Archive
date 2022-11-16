@@ -87,3 +87,40 @@ bl <- blast(db=reference, type='blastn')
 > taxaNodes<-read.nodes.sql(nodes)
 > taxaNames<-read.names.sql(names)
 ```
+8. Cluster setup
+```
+> clus <- makeCluster('8', type='FORK')
+> splits <- clusterSplit(clus, fq[302581])
+> p_cl <- parLapply(clus, splits, parpredict)
+> stopCluster(clus)
+> cl <- dplyr::bind_rows(p_cl)
+```
+9. Filtering Hits
+```
+> clfilt <- cl[which(cl$Perc.Ident>=95 & cl$Alignment.Length>=140),]
+```
+10. Extract accession IDs for blast hits
+```
+> accid = as.character(clfilt$SubjectID)
+```
+11. Extract taxonomic IDs
+```
+> ids<-accessionToTaxa(accid, accession)
+```
+12. Extract taxonomic name
+```
+> taxlist=getTaxonomy(ids, taxaNodes, taxaNames)
+> cltax=cbind(clfilt,taxlist)
+```
+13. Visualization
+```
+> ggplot(cltax) +
+  geom_bar(aes(x=fct_infreq(family))) +
+  theme(axis.text.x = element_text(angle=90))
+
+> ggplot(cltax) +
+  geom_bar(aes(x=fct_infreq(species))) +
+  theme(axis.text.x = element_text(angle=90))
+```
+### Reference
+Adapted from @ *[https://github.com/rsh249/bio331_2021/blob/main/R/BLAST_metagenomics_demo.R](https://github.com/rsh249/bio331_2021/blob/main/R/BLAST_metagenomics_demo.R)*
