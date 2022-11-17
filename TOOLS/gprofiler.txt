@@ -1,0 +1,20 @@
+Tool: g:Profiler
+Perform: Pathway Analysis
+
+Website: https://biit.cs.ut.ee/gprofiler/
+
+Usage:
+
+> Open Website [https://biit.cs.ut.ee/gprofiler/]
+> Paste your Data
+
+# Example Dataset
+-----------------
+TP53
+P21
+CDK1
+MDM2
+-----------------
+
+> Select Human as Organism
+> Run query
