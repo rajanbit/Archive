@@ -1,0 +1,22 @@
+Tool: Reactome
+Perform: Pathway Analysis
+
+Website: https://reactome.org/
+
+Usage:
+
+> Open Website [https://reactome.org/]
+> Click on Pathway Browser
+> Click on Analysis Button
+> Paste your Data
+
+# Example Dataset
+-----------------
+TP53
+P21
+CDK1
+MDM2
+-----------------
+
+> Select Project to human
+> Click on Analysis
