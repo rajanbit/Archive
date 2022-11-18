@@ -15,9 +15,10 @@ It contain information regarding following steps related to the tools:
 2. [Taxonomy Analysis](https://github.com/rajanbit/Archive/wiki/Taxonomy-Analysis)
 3. [Phylogenetic and Evolutionary Analysis](https://github.com/rajanbit/Archive/wiki/Phylogenetic-and-Evolutionary-Analysis)
 4. [Molecular Docking and Visualization](https://github.com/rajanbit/Archive/wiki/Molecular-Docking-and-Visualization)
-5. [Database](https://github.com/rajanbit/Archive/wiki/Database)
-6. [Utility Tools](https://github.com/rajanbit/Archive/wiki/Utility-Tools)
-7. [Pipelines](https://github.com/rajanbit/Archive/wiki/Pipelines)
+5. [Pathway Analysis](https://github.com/rajanbit/Archive/wiki/Pathway-Analysis)
+6. [Database](https://github.com/rajanbit/Archive/wiki/Database)
+7. [Utility Tools](https://github.com/rajanbit/Archive/wiki/Utility-Tools)
+8. [Pipelines](https://github.com/rajanbit/Archive/wiki/Pipelines)
 
 ### Documentation
 ***Wiki: https://github.com/rajanbit/Archive/wiki***
