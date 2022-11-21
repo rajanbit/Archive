@@ -1,0 +1,10 @@
+Tool: CRISPRCasFinder
+Perform: Detect CRISPR repeats and cas genes from the bacterial genomic sequence
+
+Website: https://crisprcas.i2bc.paris-saclay.fr/
+
+Usage: 
+>Go to website >Click on CRISPRCasFinder
+>Enter NCBI Accession ID or upload the genome (FASTA format)
+>Enter mail ID and job name
+>Click on Run CRISPRCasFinder button
