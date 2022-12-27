@@ -1,0 +1,39 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names
+#additionally, you can specify a custom class for internal nodes, which can be used to automatically collapse them
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL,CLASS
+
+#Examples
+
+#note that the class field is optional
+
+#define a name and class for an internal node. Class 'kingdom' will be available when using the automatic clade collapsing function
+#9031|9606,Metazoa,kingdom
+
+#change the label for leaf node 9606
+NC_000001,Homo_sapiens
+NC_000002,Pan_troglodytes
+NC_000003,Gorilla_gorilla
+NC_000004,Pongo_abelii
+NC_000005,Hylobates_lar
+NC_000006,Macaca_mulatta
+NC_000007,Papio_anubis
+NC_000008,Saimiri_sciureus
+NC_000009,Aotus_lemurinus
+NC_000010,Mus_musculus
