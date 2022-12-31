@@ -1,0 +1,15 @@
+Tool: ClustalW
+Perform: Multiple Sequence Alignment
+
+Website: http://www.clustal.org/
+
+Installation:
+$ conda install -c bioconda clustalw
+
+Usage:
+
+# Show all available commands
+$ clustalw -help
+
+# Perform MSA
+$ clustalw -INFILE=seq.fasta -OUTFILE=seq.aln -OUTPUT=FASTA
