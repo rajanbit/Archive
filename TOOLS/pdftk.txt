@@ -1,0 +1,11 @@
+Tool: PDFtk
+Perform: PDF manipulation
+
+Website: https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+
+Usage:
+
+1. Add a password to a PDF
+$ pdftk document.pdf output new_document.pdf user_pw passwd@123
+
+
