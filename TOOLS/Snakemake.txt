@@ -1,0 +1,20 @@
+Tool: Snakemake
+Perform: Workflow management system
+
+Website: https://snakemake.readthedocs.io/en/stable/
+GitGub: https://github.com/snakemake/snakemake
+
+Installation: 
+$ conda create -n snakemake -c bioconda snakemake
+
+Usage:
+
+# Activating environment
+$ conda activate snakemake
+
+# Dryrun
+$ snakemake -s phylogenetic_tree1.smk tree.raxml.support --dryrun --reason --printshellcmds
+
+# Actual run
+$ snakemake -s phylogenetic_tree1.smk tree.raxml.support
+
