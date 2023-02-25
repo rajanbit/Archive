@@ -1,0 +1,31 @@
+Tool: Nextflow
+Perform: Workflow management system
+
+GitHub: https://github.com/nextflow-io/nextflow
+Website: https://www.nextflow.io/
+
+Installation
+
+# Create an environment
+$ conda create -n nextflow
+
+# Activate environment
+$ conda activate nextflow
+
+# Install latest java
+$ conda install -c conda-forge openjdk
+
+# Install curl
+$ conda install -c conda-forge curl
+
+# Download nextflow
+$ curl -s https://get.nextflow.io | bash
+
+# Check downloaded package
+$ ./nextflow run hello
+
+# Install globally
+$ sudo mv nextflow /usr/local/bin/nextflow
+
+# Check Installation
+$ nextflow run hello
