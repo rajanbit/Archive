@@ -2,7 +2,7 @@
 ## Phylogenetic tree construction using online web-servers
 Phylogenetic tree is a graphical representation of evolutionary relationships between various taxa. It is commonly used in evolutionary biology, microbiology and epidemiology. Here we will try to draw the phylogenetic relationship between primates that includes Human, Apes, Old World Monkey and New World Monkey using Cytochrome C Oxidase-II (COX2) gene sequences. Cytochrome C Oxidase-II (COX2) is a mitochondrial DNA (mtDNA) encoded gene widely used for reconstructing phylogenetic relationship at different taxomonic levels. 
 
-1. Download [Cytochrome C Oxidase-II (COX2) gene sequences](https://raw.githubusercontent.com/rajanbit/DiGeMed-Datasharing/main/Rajan/Phylogenetic_Tree_Construction/data/primates_tree/primates_cox2.fasta).
+1. Download [Cytochrome C Oxidase-II (COX2) gene sequences](https://github.com/rajanbit/Archive/blob/main/PIPELINES/data/primates_tree.fasta).
 
 > Here we have used COX2 gene sequences for Human, Apes (Chimp, Gorilla, Orangutan & Gibbon), Old World Monkey(Baboon & Macaque) New World Monkey (Owl & Squirrel Monkey) and Mouse (as outgroup).
 2. Perform Multiple Sequence Alignment (MSA) using [ClustalW](https://www.ebi.ac.uk/Tools/msa/clustalo), [MAFFT](https://www.ebi.ac.uk/Tools/msa/mafft) or [MUSCLE](https://www.ebi.ac.uk/Tools/msa/muscle).
