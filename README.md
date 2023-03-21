@@ -19,6 +19,7 @@ It contain information regarding following steps related to the tools:
 6. [Database](https://github.com/rajanbit/Archive/wiki/Database)
 7. [Utility Tools](https://github.com/rajanbit/Archive/wiki/Utility-Tools)
 8. [Pipelines](https://github.com/rajanbit/Archive/wiki/Pipelines)
+9. [Tutorials](https://github.com/rajanbit/Archive/wiki/Tutorials)
 
 ### Documentation
 ***Wiki: https://github.com/rajanbit/Archive/wiki***
