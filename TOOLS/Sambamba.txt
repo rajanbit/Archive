@@ -1,0 +1,22 @@
+Tool: Sambamba
+Perform: Processing of NGS alignment formats 
+
+GitHub: https://github.com/biod/sambamba
+Website: https://lomereiter.github.io/sambamba/
+
+# Installation:
+conda install -c bioconda sambamba
+
+# Usage:
+1). Print help message
+$ sambamba -h
+
+2). Sort BAM file
+$ sambamba sort input.bam
+
+3. Index BAM file
+$ sambamba index input.bam
+
+4. Mark and remove duplicates
+$ sambamba markdup -r input.bam output.bam
+

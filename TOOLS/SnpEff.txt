@@ -1,0 +1,24 @@
+Tool: SnpEff
+Perform: Genomic variant annotations and functional effect prediction
+
+GitHub: https://github.com/pcingola/SnpEff
+Website: https://pcingola.github.io/SnpEff/
+
+Requirements:
+Download latest java from [https://adoptium.net/temurin/releases/]
+$ tar -xvf OpenJDK17U-jdk_x64_linux_hotspot_17.0.7_7.tar.gz
+
+# Installation:
+$ wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
+$ unzip snpEff_latest_core.zip
+$ cd snpEff/
+
+# Usage:
+1). Check GRCh38 databases availability 
+$ ./../jdk-17.0.7+7/bin/java -jar snpEff.jar databases | grep GRCh38
+
+2). Download database
+$ ./../jdk-17.0.7+7/bin/java -jar snpEff.jar download -v GRCh38.105
+
+3). Running snpEff
+$ ./../jdk-17.0.7+7/bin/java -jar snpEff.jar GRCh38.105 filtered_somatic.vcf.gz
