@@ -1,0 +1,14 @@
+Tool: Streamlit
+Perform: Building and sharing of data apps
+
+GitHub: https://github.com/streamlit/streamlit
+Website: https://streamlit.io/
+
+# Installation
+$ conda create -n streamlit -c conda-forge python
+$ conda activate streamlit
+$ pip install streamlit
+
+# Testing installation
+$ streamlit hello
+
