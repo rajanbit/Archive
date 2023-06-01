@@ -1,0 +1,27 @@
+Tool: RNAmmer
+Perform: Predict and annotate ribosomal RNA
+
+Website: https://services.healthtech.dtu.dk/services/RNAmmer-1.2/
+
+Installation:
+
+# Go to [https://services.healthtech.dtu.dk/software.php]
+# Click on RNAmmer
+# Click on src
+# Fill the form using institute email ID
+# Download the RNAmmer from the link given in mail
+$ tar -xvf rnammer-1.2.src.tar.gz
+$ conda create -n rnammer
+$ conda activate rnammer
+$ conda install -c conda-forge perl
+$ conda install -c bioconda perl-xml-simple
+$ conda install -c bioconda hmmer==2.3.2
+# Change INSTALL_PATH path: path of RNAmmer tool folder
+# Change HMMSEARCH_BINARY path: path of hmmsearch in rnammer env (use command $ which hmmsearch)
+# Change PERL path: path of perl in rnammer env (use command $ which perl)
+
+Usage: 
+$ ./rnammer -S bac -m lsu,ssu,tsu -xml example/ecoli.xml -gff example/ecoli.gff -h example/ecoli.hmmreport < example/ecoli.fsa
+
+# Note: To use RNAmmer in different folder, The rnammer script can be copied
+# to the desired folder and executed directly from there
