@@ -1,0 +1,15 @@
+Tool: ART
+Perform: Next-generation sequencing read simulator 
+
+Website: https://www.niehs.nih.gov/research/resources/software/biostatistics/art/
+
+Installation:
+conda install -c bioconda art
+
+Usage: 
+
+1. Print help message
+art_illumina -h
+
+2. Produce reads of lenght 150, 20x coverage, mean fragments size 200, SD in length by 10bp
+art_illumina -sam -i reference.fasta -p -l 150 -ss HS25 -f 20 -m 200 -s 10 -o out_dir
