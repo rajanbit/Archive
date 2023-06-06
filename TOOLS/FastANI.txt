@@ -2,8 +2,15 @@ Tool: FastANI
 Perform: Calculates whole-genome Average Nucleotide Identity (ANI)
 Github: https://github.com/ParBLiSS/FastANI
 
->Installation
+>Installation 
+
+1. Conda installation
 $ conda install -c bioconda fastani
+
+2. Binary installation
+$ wget https://github.com/ParBLiSS/FastANI/releases/download/v1.33/fastANI-Linux64-v1.33.zip
+$ unzip fastANI-Linux64-v1.33.zip
+$ sudo mv fastANI /usr/local/bin/fastANI
 
 >Requirement
 
