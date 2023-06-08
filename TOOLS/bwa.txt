@@ -1,0 +1,16 @@
+Tool: BWA
+Perform: Used for mapping NGS reads against large reference genome
+
+GitHub: https://github.com/lh3/bwa
+Website: https://bio-bwa.sourceforge.net/bwa.shtml
+
+Installation: 
+$ conda install -c bioconda bwa
+
+Usage:
+
+1. Build index
+$ bwa index ref.fasta
+
+2. Mapping
+$ bwa mem -t 2 ref.fasta sample.R1.fastq.gz sample.R2.fastq.gz -o sample.sam

@@ -1,0 +1,15 @@
+Tool: BWA-MEM2
+Perform: Used for mapping NGS reads against large reference genome (Faster than BWA)
+
+GitHub: https://github.com/bwa-mem2/bwa-mem2
+
+Installation:
+$ conda install -c bioconda bwa-mem2
+
+Usage: 
+
+1. Build index
+$ bwa-mem2 index ref.fasta
+
+2. Mapping
+$ bwa-mem2 mem -t 20 ref.fasta sample.R1.fastq.gz sample.R2.fastq.gz -o sample.sam
