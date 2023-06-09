@@ -1,0 +1,21 @@
+Tool: Samtools
+Perform: Used for manipulating NGS data 
+
+GitHub: https://github.com/samtools/samtools
+Website: https://www.htslib.org/
+
+
+Installation:
+$ conda install -c bioconda samtools
+
+Usage:
+
+1. Sort and convert SAM to BAM
+$ samtools view -bS sample.sam | samtools sort - -o sample.bam
+
+2. Create bam index file
+$ samtools index sample.bam
+
+3. Get read counts per chromosome from bam file
+$ cat sample.bam | samtools view -h -F 0x4 -F 0x100 | samtools idxstats -
+
