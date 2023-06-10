@@ -1,0 +1,18 @@
+Tool: wgsim
+Perform: Simulate sequence reads from a reference genome
+
+GitHub: https://github.com/lh3/wgsim
+
+Installation: 
+$ git clone https://github.com/lh3/wgsim.git
+$ cd wgsim
+$ gcc -g -O2 -Wall -o wgsim wgsim.c -lz -lm
+
+Usage:
+
+1. Print help message
+$ ./wgsim -h
+
+2. Generate 150000000x2 reads of 150 bp length with zero error rate, no mutations/indels
+./wgsim -e 0 -r 0 -R 0 -X 0 -h -S 5 -1 150 -2 150 -N 150000000 ref.fasta  out.read1.fq out.read2.fq
+
