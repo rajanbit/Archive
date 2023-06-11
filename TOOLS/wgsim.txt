@@ -14,5 +14,5 @@ Usage:
 $ ./wgsim -h
 
 2. Generate 150000000x2 reads of 150 bp length with zero error rate, no mutations/indels
-./wgsim -e 0 -r 0 -R 0 -X 0 -h -S 5 -1 150 -2 150 -N 150000000 ref.fasta  out.read1.fq out.read2.fq
+$ ./wgsim -e 0 -r 0 -R 0 -X 0 -h -S 5 -1 150 -2 150 -N 150000000 ref.fasta  out.read1.fq out.read2.fq
 

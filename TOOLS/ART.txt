@@ -9,10 +9,10 @@ conda install -c bioconda art
 Usage: 
 
 1. Print help message
-art_illumina -h
+$ art_illumina -h
 
 2. Produce reads of lenght 150, 20x coverage, mean fragments size 200, SD in length by 10bp
-art_illumina -sam -i reference.fasta -p -l 150 -ss HS25 -f 20 -m 200 -s 10 -o out_dir
+$ art_illumina -sam -i reference.fasta -p -l 150 -ss HS25 -f 20 -m 200 -s 10 -o out_dir
 
 # Note: add -qs 93 -qs2 93 in above command to generate perfect reads
 
