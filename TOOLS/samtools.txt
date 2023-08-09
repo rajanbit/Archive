@@ -19,3 +19,5 @@ $ samtools index sample.bam
 3. Get read counts per chromosome from bam file
 $ cat sample.bam | samtools view -h -F 0x4 -F 0x100 | samtools idxstats -
 
+4. Create fasta index (fai) file 
+$ samtools faidx genome.fasta
