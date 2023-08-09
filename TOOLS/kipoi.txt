@@ -1,0 +1,14 @@
+Tool: Kipoi
+Perform: Model zoo for genomics
+
+GitHub: https://github.com/kipoi/kipoi
+Website: https://kipoi.org/
+
+Installation:
+$ pip install kipoi
+$ kipoi env create <model>
+$ source activate <model>
+
+# Note: 
+# Installations must be done in conda base environment
+# Read docs for installing h5py and hdf5 in the model environment
