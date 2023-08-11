@@ -1,0 +1,12 @@
+Tool: VGG Image Annotator (VIA)
+Perform: Manual annotation of image for DL based segmentation task
+
+GitHub: https://github.com/nearkyh/via-1.0.5
+Website: https://www.robots.ox.ac.uk/~vgg/software/via
+
+Installation: 
+$ wget http://www.robots.ox.ac.uk/~vgg/software/via/downloads/via-src-1.0.4.zip
+$ unzip via-src-1.0.4.zip
+
+Usage:
+$ firefox via-src-1.0.4/via.html
