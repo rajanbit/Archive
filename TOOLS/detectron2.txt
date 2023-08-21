@@ -1,0 +1,16 @@
+Tool: Detectron2
+Perform: Image detection and segmentation
+
+GitHub: https://github.com/facebookresearch/detectron2
+Website: https://detectron2.readthedocs.io/en/latest/
+
+Installation:
+$ conda env create -f detectron2.yml
+$ git clone https://github.com/facebookresearch/detectron2.git
+$ python -m pip install -e detectron2
+$ conda actiavte detectron2
+$ conda install nbconvert
+
+Usage:
+$ conda actiavte detectron2
+$ jupyter-notebook Detectron_maskrcnn_custom_dataset_baloon.ipynb
