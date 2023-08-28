@@ -13,5 +13,14 @@ $ sudo usermod -a -G docker $USER
 $ reboot
 
 Usage:
+# Pull container
 $ docker pull staphb/mafft
+
+# Run container
 $ docker run --rm=True -v $PWD:/data -u $(id -u):$(id -g) staphb/mafft mafft --auto seq.fasta > seq.mafft
+
+# List all running containers
+$ docker container ls -a
+
+# Remove running container
+$ docker container rm <CONTAINER ID>
