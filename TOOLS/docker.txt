@@ -1,0 +1,17 @@
+Tool: Docker
+Perform: Help build, share, and run container applications
+
+GitHub: https://github.com/docker
+Website: https://www.docker.com/
+
+Installation:
+$ sudo apt-get remove docker docker-engine docker.io
+$ sudo apt-get update
+$ sudo apt install docker.io
+$ sudo snap install docker
+$ sudo usermod -a -G docker $USER
+$ reboot
+
+Usage:
+$ docker pull staphb/mafft
+$ docker run --rm=True -v $PWD:/data -u $(id -u):$(id -g) staphb/mafft mafft --auto seq.fasta > seq.mafft
