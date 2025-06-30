@@ -21,3 +21,6 @@ $ cat sample.bam | samtools view -h -F 0x4 -F 0x100 | samtools idxstats -
 
 4. Create fasta index (fai) file 
 $ samtools faidx genome.fasta
+
+5. Convert uBAM to FASTQ (single end)
+$ samtools fastq -@ 8 sample.bam | pigz -p 8 > sample.fastq.gz
